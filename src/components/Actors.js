@@ -9,7 +9,7 @@ const Actors = () => {
         return <div key={index}>
           <h2>{actor.name}</h2>
           <ul>
-            {actor.movies.map((movie, index) => {
+  {actor.movies.map((movie, index) => {
               return <li key={index}>
                 {movie}
               </li>
@@ -20,5 +20,4 @@ const Actors = () => {
     </div>
   );
 }
-
 export default Actors;
